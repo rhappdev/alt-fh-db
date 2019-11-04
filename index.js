@@ -4,7 +4,8 @@ var ObjectId = require('mongodb').ObjectId;
 var MAX_COLLECTION_NAME = 70;
 
 var mongoClientOptions = {
-  useNewUrlParser: true
+  useNewUrlParser: true,
+  useUnifiedTopology: true
 };
 
 var MongoDbClient = function (options) {
