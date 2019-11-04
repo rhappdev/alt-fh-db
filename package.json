@@ -1,6 +1,6 @@
 {
   "name": "alt-fh-db",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Alternative for the FeedHenry `.db` API in `fh-mbaas-api`",
   "main": "index.js",
   "repository": {
